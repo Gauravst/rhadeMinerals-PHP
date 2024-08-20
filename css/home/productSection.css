@@ -1,0 +1,100 @@
+#product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: var(--color-blue-dark);
+  text-align: center;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.productItem {
+  position: relative;
+  border-radius: 9px;
+  /* background-color: #f0f2f5; */
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.productItem:nth-child(1) {
+  background-color: #fef4f0;
+}
+
+.productItem:nth-child(2) {
+  background-color: #f0f2f5;
+}
+
+.productItem:nth-child(3) {
+  background-color: #fff9e6;
+}
+
+.productItem .productItemImg img {
+  width: 100%;
+  border-radius: 9px 9px 0px 0px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.productItem:hover .productItemImg img {
+  content: url("https://radheyshyamminerals.com/img/silica-sand.jpg");
+}
+
+.productItem .productItemInfo {
+  padding: 10px 20px;
+}
+
+.productItem .productItemInfo h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-blue-dark);
+}
+
+.productItem .productItemInfo p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.productItem .productItemBtn {
+  width: 100%;
+  padding: 0 15px 15px 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.productItem .productItemBtn a {
+  background-color: var(--color-blue-dark);
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 925px) {
+  .productList {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 597px) {
+  .productList {
+    grid-template-columns: 1fr;
+  }
+}

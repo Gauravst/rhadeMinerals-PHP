@@ -1,0 +1,94 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactData {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+}
+
+.contactFrom {
+  width: 100%;
+}
+
+.formBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.formBox > label {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.formBox > input,
+.formBox > textarea {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.formBox > textarea {
+  height: auto;
+  padding: 10px 10px;
+  font-family: inherit;
+}
+
+.contectFormSubmitBtn {
+  height: 50px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-blue-dark);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contactDetails .contactBox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contactDetails .contactBox i {
+  margin-right: 30px;
+  color: var(--color-orange);
+}
+
+.contactBox {
+  margin: 15px 0px;
+}
+
+.contactBox h4 {
+  margin: 0;
+}
+
+.addressMap {
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 1150px) {
+  .contactData {
+    grid-template-columns: 1fr;
+  }
+}

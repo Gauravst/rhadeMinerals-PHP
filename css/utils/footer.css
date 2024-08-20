@@ -1,0 +1,124 @@
+footer {
+  background-color: var(--color-blue-dark);
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.footerInfo {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+  color: #f8f8ff;
+  font-size: 14px;
+}
+
+.footerInfo h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footerAboutInfoPera {
+  padding-right: 20px;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.footerInfo ul {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.footerInfo ul li {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  align-items: start;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footerInfo ul li a {
+  text-decoration: none;
+  text-align: start;
+  color: #f8f8ff;
+}
+
+.footerInfo ul li a:hover {
+  color: var(--color-orange-light);
+  text-decoration: underline;
+}
+
+.addressBoxItem {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.addressBoxItem i {
+  margin-right: 10px;
+  color: var(--color-orange-light);
+}
+
+.addressBoxItem p {
+  padding: 0;
+}
+
+.copyrightInfo {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8ff;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.copyrightInfo > a {
+  color: var(--color-orange-light);
+}
+
+@media (max-width: 1120px) {
+  .footerInfo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 876px) {
+  .footerInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .copyrightInfo {
+    font-size: 13px;
+  }
+}
+
+/*for tab*/
+@media (max-width: 1023px) {
+  footer {
+    padding: 20px 35px;
+  }
+}
+
+/* for moblie */
+@media (max-width: 767px) {
+  footer {
+    padding: 20px 20px;
+  }
+}
