@@ -2,7 +2,7 @@
   <h2 class="productTitle">Contact Us</h2>
   <div class="contactData">
     <div class="contactFrom">
-      <form>
+      <form action="" method="post">
         <div class="formBox">
           <label>Name</label>
           <input type="text" name="name" placeholder="harry" />
@@ -24,7 +24,7 @@
           ></textarea>
         </div>
 
-        <button class="contectFormSubmitBtn" type="submit">Send Message</button>
+        <button class="contectFormSubmitBtn" name="contactFromBtn" type="submit">Send Message</button>
       </form>
     </div>
     <div class="contactDetails">

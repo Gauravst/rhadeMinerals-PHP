@@ -20,7 +20,7 @@
                 <li><a href="./privacy">Privacy Policy</a></li>
                 <li><a href="./terms">Terms & Conditions</a></li>
                 <li><a href="./sitemap.xml">Sitemap</a></li>
-                <li><a href="./admin/login">Dashboard</a></li>
+                <li><a href="./dashboard/login">Dashboard</a></li>
               </ul>
             </div>
           </div>
