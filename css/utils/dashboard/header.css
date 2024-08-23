@@ -1,0 +1,316 @@
+/*header*/
+header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+header .menuIcon {
+  display: none;
+  font-size: 22px;
+}
+
+header .closeIcon {
+  display: none;
+  font-size: 22px;
+}
+
+header .logo a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+header .logo a:hover {
+  color: var(--color-orange-light);
+}
+
+.headerRight {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+}
+
+.headerRight nav {
+  height: 100%;
+}
+
+.headerRight nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerRight nav ul li {
+  color: var(--color-white);
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+}
+
+.headerRight nav ul li:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--color-orange-light);
+}
+
+.headerRight nav ul .active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--color-orange-light);
+}
+
+.headerRight nav ul li a {
+  height: 100%;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.headerRight .whatsappBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0;
+  border-radius: 5px;
+  background-color: var(--color-orange);
+  height: 40px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.headerRight .whatsappBtn > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  margin: 0;
+}
+
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: var(--color-orange-dark);
+  color: white;
+  border: none;
+  height: 45px;
+  width: 45px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+#goToTopBtn:hover {
+  /* background-color: #333; */
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  height: auto;
+}
+
+.dropdownProduct {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 260px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownProductIcon {
+  display: none;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.dropdownProduct a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.dropdownProduct a:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.headerRight nav ul li:nth-child(3):hover .dropdown {
+  display: block;
+}
+
+.dropdownProduct a img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.dropdownProduct a p {
+  color: var(--color-blue-dark);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.username a {
+  color: var(--color-orange-light) !important;
+  font-weight: 600;
+}
+
+@media (max-width: 1120px) {
+  header .menuIcon {
+    display: flex;
+  }
+
+  header .logo a {
+    font-size: 18px;
+  }
+
+  header .headerRight {
+    position: relative;
+  }
+
+  header nav {
+    display: none;
+    justify-content: start;
+    align-items: start;
+    position: fixed;
+    margin: 0px;
+    background: var(--color-blue-dark);
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 80px;
+    bottom: 0;
+    opacity: 0;
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+
+  header .headerRight nav.open {
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .headerRight nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+  }
+
+  .whatsappBtn p {
+    display: none;
+  }
+
+  .productNavLi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdownProduct {
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 260px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdownProduct a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dropdownProduct a:hover {
+    background-color: var(--color-blue-light);
+  }
+
+  .dropdownProduct a img {
+    width: 40px;
+    border-radius: 5px;
+  }
+
+  .dropdownProduct a p {
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .dropdownProductIcon {
+    display: block;
+  }
+}
+
+/*for tab*/
+@media (max-width: 1023px) {
+  header {
+    padding: 0px 35px;
+  }
+}
+
+/* for moblie */
+@media (max-width: 767px) {
+  header {
+    padding: 0px 20px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,40 @@
+.page {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+}
+
+.dashboardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 250px;
+  background-color: #fef4f0;
+  border-radius: 9px;
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.dashboardBox a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboardBox h1 {
+  margin: 0;
+}
+
+@media (max-width: 632px) {
+  .page {
+    flex-direction: column;
+  }
+}

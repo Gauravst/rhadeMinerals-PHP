@@ -1,0 +1,166 @@
+.page {
+  padding: 20px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f2f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f2f5;
+}
+
+tr:nth-child(odd) {
+  background-color: #fef4f0;
+}
+
+tr:nth-child(1) {
+  border-radius: 9px;
+}
+
+.delete-btn {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #cc0000;
+}
+
+#addNewUserBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: var(--color-blue-dark);
+  color: white;
+  border: none;
+  height: 45px;
+  font-size: 14px;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.deletePopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  z-index: 99;
+}
+
+.deletePopup.show {
+  display: block;
+}
+
+.deletePopup .btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.confirmDeleteBtn {
+  background-color: var(--color-blue-dark);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.deletePopup button {
+  height: 40px;
+  padding: 0px 10px;
+  cursor: pointer;
+  margin: 0px 7px;
+  border-radius: 5px;
+}
+
+#itemPopup {
+  flex-direction: column !important;
+  min-width: 500px !important;
+}
+
+.itemPopupBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 10px 0px;
+}
+
+.itemPopupBox > p {
+  font-size: 14px;
+  color: var(--color-blue-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.itemPopupBox > .itemInfo {
+  font-size: 15px;
+  color: #000;
+}
+
+.message {
+  max-height: 200px !important;
+  overflow-y: auto !important;
+}
+
+@media (max-width: 800px) {
+  th:nth-child(4),
+  td:nth-child(4) {
+    display: none;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    display: none;
+  }
+
+  .page {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .deletePopup {
+    width: 90%;
+  }
+
+  #itemPopup {
+    min-width: 90% !important;
+  }
+}
