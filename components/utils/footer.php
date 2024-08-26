@@ -3,12 +3,7 @@
           <div class="footerBox">
             <h3>Rhade Minerals</h3>
             <div class="footerAboutInfoPera">
-              Established in 2007, Rhade Minerals has been at the forefront of
-              the mineral industry, producing premium talc powder, calcite
-              powder, and calcite calcium carbonate from our facility in
-              Udaipur, Rajasthan. We are a prominent exporter and supplier of
-              various mineral products, including fired dolomite powder, silica
-              powder, and Chinese clay powder.
+          Established nearly half a decade ago, Rhade KC Minerals has been a leader in the mineral industry, specializing in the production of premium Talc Powder and Soapstone from our facility in Bageshwar, Uttarakhand. We are a prominent exporter and supplier of these high-quality mineral products, trusted by clients for our consistent quality and reliable service.
             </div>
           </div>
 
@@ -20,7 +15,7 @@
                 <li><a href="./privacy">Privacy Policy</a></li>
                 <li><a href="./terms">Terms & Conditions</a></li>
                 <li><a href="./sitemap.xml">Sitemap</a></li>
-                <li><a href="./dashboard/login">Dashboard</a></li>
+                <li><a href="./dashboard">Dashboard</a></li>
               </ul>
             </div>
           </div>
@@ -29,8 +24,8 @@
             <h3>Product</h3>
             <div>
               <ul>
-                <li><a href="./">China Clay Powder</a></li>
-                <li><a href="./">Soapstone Powder</a></li>
+                <li><a href="./talc">Talcum Powder</a></li>
+                <li><a href="./soapstone">Soapstone Powder</a></li>
                 <li><a href="./">Dolomite Powder</a></li>
                 <li><a href="./">Calcite Powder</a></li>
               </ul>
@@ -43,29 +38,28 @@
               <div class="addressBoxItem">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>
-                  E-102, Near Pratap Hospital, Udaipur, Rajasthan - 313001,
-                  India
+                  Bari Khalsa Near Mangal Restaurant, Bageshwar, Uttarakhand India
                 </p>
               </div>
 
               <div class="addressBoxItem">
                 <i class="fas fa-phone"></i>
-                <p>+91 9414156792</p>
+                <p>+91 9988262608</p>
               </div>
 
               <div class="addressBoxItem">
                 <i class="fas fa-envelope"></i>
-                <p>contact@rhademinerals.com</p>
+                <p>rhademinerals@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
         <div class="copyrightInfo">
-          Rhade Minerals © 2024. All Rights Reserved | Designed & Developed by
-          <a href="#">Gauravst</a>
+          Rhade KC Minerals © 2024. All Rights Reserved | Designed & Developed by
+          <a href="https://github.com/CommitCore">Commit Core</a>
         </div>
       </footer>
     </div>
-<script src="<?=$jsFile ?>"></script>
+    <script src="<?=$jsFile ?>"></script>
   </body>
 </html>

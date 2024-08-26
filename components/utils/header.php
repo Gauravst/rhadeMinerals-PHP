@@ -22,7 +22,7 @@
           <i class="fas fa-times"></i>
         </div>
         <div class="logo">
-          <a href="/">Rhade KC Minerals</a>
+          <a href="/"><span>Rhade </span><span>KC Minerals</span></a>
         </div>
         <div class="headerRight">
           <nav>
@@ -38,23 +38,17 @@
                 </div>
                 <div class="dropdown">
                   <div class="dropdownProduct">
-                    <a href="./product">
+                    <a href="./talc">
                       <img
                         src="https://radheyshyamminerals.com/img/silica-sand.jpg"
                       />
-                      <p>China Clay</p>
+                      <p>Talcum Powder</p>
                     </a>
-                    <a href="#">
+                    <a href="./soapstone">
                       <img
                         src="https://radheyshyamminerals.com/img/silica-sand.jpg"
                       />
-                      <p>China Clay</p>
-                    </a>
-                    <a href="#">
-                      <img
-                        src="https://radheyshyamminerals.com/img/silica-sand.jpg"
-                      />
-                      <p>China Clay</p>
+                      <p>Soapstone</p>
                     </a>
                   </div>
                 </div>
@@ -65,6 +59,7 @@
             </ul>
           </nav>
           <div class="whatsappBtn">
+            <a href="https://wa.me/919988262608?text=Hi" target="_blank">
             <svg width="20" viewBox="0 0 24 24">
               <defs></defs>
               <path
@@ -81,6 +76,7 @@
               ></path>
             </svg>
             <p>Message</p>
+            </a>
           </div>
         </div>
       </header>

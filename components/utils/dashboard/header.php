@@ -23,7 +23,7 @@
           <i class="fas fa-times"></i>
         </div>
         <div class="logo">
-          <a href="/">Rhade KC Minerals</a>
+          <a href="/"><span>Rhade </span><span>KC Minerals</span></a>
         </div>
         <div class="headerRight">
           <nav>

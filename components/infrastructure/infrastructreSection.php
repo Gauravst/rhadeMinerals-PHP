@@ -1,45 +1,40 @@
 <section id="infrastructure">
   <div class="infrastructureBox">
     <div class="infrastructureBoxImage">
-      <img
-        src="https://radheyshyamminerals.com/img/gallery/gallery-8.jpg"
-        alt=""
-      />
+      <img src="./assets/banner3.webp" alt="" />
     </div>
     <div class="infrastructureBoxInfo">
       <p>
-        Rhade KC Minerals is a leading producer of high-quality China Clay and
-        Sand, with our own captive mines located in the city - Bageshwar,
-        Uttarakhand. Our mines are equipped with state-of-the-art technology,
-        allowing us to produce China Clay and Sand with low Iron Oxide content,
-        ensuring they are suitable for a wide range of applications. Our
-        processing plant features the latest equipment necessary to produce
-        premium Silica Sand through both wet and dry processes. We adhere to the
-        highest industry standards, utilizing advanced techniques and a team of
-        highly skilled professionals dedicated to maintaining strict quality
-        control measures throughout every stage of production.
+        Rhade KC Minerals is a leading producer of high-quality Talc Powder and
+        Soapstone Powder, with our own captive mines located in Bageshwar,
+        Uttarakhand. Our mines are equipped with cutting-edge technology,
+        enabling us to produce Talc and Soapstone Powders with low impurity
+        levels, making them suitable for a wide range of industrial
+        applications. Our processing plant is outfitted with the latest
+        equipment to ensure the production of premium quality powders. We adhere
+        to the highest industry standards, utilizing advanced techniques and a
+        team of highly skilled professionals committed to maintaining strict
+        quality control measures throughout every stage of production.
       </p>
     </div>
   </div>
 
   <div class="infrastructureBox">
     <div class="infrastructureBoxImage">
-      <img
-        src="https://radheyshyamminerals.com/img/gallery/gallery-15.jpg"
-        alt=""
-      />
+      <img src="./assets/infra/infra2.webp" alt="" />
     </div>
     <div class="infrastructureBoxInfo">
       <p>
-        At Rhade KC Minerals, we understand the critical importance of quality
-        control. Our well-equipped laboratory, staffed by experienced
-        professionals, conducts rigorous testing on our products. This ensures
-        that our products consistently meet the highest standards and are ideal
-        for various industrial applications. We are committed to delivering the
-        best quality products to our customers, and our state-of-the-art
-        infrastructure reflects our dedication to quality and excellence.
-        Whether it’s China Clay or Sand, our products are renowned for their
-        superior quality and performance.
+        At Rhade KC Minerals, we prioritize the highest standards of quality
+        control. Our advanced laboratory, manned by skilled professionals,
+        conducts thorough testing to ensure our Talc Powder and Soapstone Powder
+        consistently meet industry-leading standards. These rigorous processes
+        guarantee that our products are perfect for various industrial
+        applications. Our commitment to excellence is reflected in our
+        state-of-the-art infrastructure, ensuring that we deliver only the best
+        to our customers. Whether it’s Talc Powder or Soapstone Powder, our
+        products are celebrated for their superior quality and exceptional
+        performance.
       </p>
     </div>
   </div>

@@ -1,0 +1,11 @@
+User-agent:*
+Disallow :/dashboard/
+Disallow :/backend/
+Disallow :/assets/
+Disallow :/components/
+Disallow :/css/
+Disallow :/js/
+Disallow :/db/
+Disallow :/config.php
+Disallow :/README.md
+Sitemap:https://rhademinerals.com/sitemap.xml

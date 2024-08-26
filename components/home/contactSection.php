@@ -32,7 +32,7 @@
         <i class="fas fa-map-marker-alt"></i>
         <div>
           <h4>Address</h4>
-          <p>E-102, Near Pratap Hospital, Udaipur, Rajasthan - 313001, India</p>
+          <p>Bari Khalsa Near Mangal Restaurant, Bageshwar, Uttarakhand India</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
         <i class="fas fa-phone"></i>
         <div>
           <h4>Phone</h4>
-          <p>+91 9414156792</p>
+          <p>+91 9988262608</p>
         </div>
       </div>
 
@@ -48,7 +48,7 @@
         <i class="fas fa-envelope"></i>
         <div>
           <h4>Email</h4>
-          <p>contact@rhademinerals.com</p>
+          <p>rhademinerals@gmail.com</p>
         </div>
       </div>
 

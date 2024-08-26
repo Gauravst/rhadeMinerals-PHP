@@ -18,8 +18,7 @@
       <h1>Rhade KC Minerals</h1>
       <h2>Your Mineral Source for Construction Excellence</h2>
       <p>
-        Rhade Minerals provides premium China Clay, Silica Sand, and Low Iron
-        Silica Sand, crafted to meet the high demands of construction. Choose us
+        Rhade Minerals provides premium Talcum Powder (Talc Powder) and  Shop Stone, crafted to meet the high demands of construction. Choose us
         for reliable, top-quality mineral solutions.
       </p>
       <button class="heroBtn"><a href="./contact">Contact Us</a></button>

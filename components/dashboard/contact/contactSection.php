@@ -54,10 +54,12 @@ if ($result->num_rows > 0) {
     <tbody>
       <?php $index = 1;?> <?php foreach ($contacts as $item): ?>
 
-      <tr
-        onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')"
-      >
-        <td><?= $index++;?></td>
+      <tr>
+        <td
+          onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')"
+        >
+          <?= $index++;?>
+        </td>
         <td>
           <?= strlen($item['name']) > 7 ? htmlspecialchars(substr(
               $item['name'],
@@ -65,12 +67,20 @@ if ($result->num_rows > 0) {
               7
           )) . '...' : htmlspecialchars($item['name']); ?>
         </td>
-        <td><?= $item['email'];?></td>
-        <td><?= $item['phone'];?></td>
-        <td>
+        <td
+          onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')"
+        >
+          <?= $item['email'];?>
+        </td>
+        <td
+          onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')"
+        >
+          <?= $item['phone'];?>
+        </td>
+        <td onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')">
           <?= strlen($item['message']) > 30 ?
-                                                                                htmlspecialchars(substr($item['message'], 0, 30)) . '...' :
-                                                                                htmlspecialchars($item['message']); ?>
+                        htmlspecialchars(substr($item['message'], 0, 30)) . '...' :
+                        htmlspecialchars($item['message']); ?>
         </td>
         <td>
           <i

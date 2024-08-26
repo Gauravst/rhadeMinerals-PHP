@@ -24,6 +24,9 @@
   position: relative;
   border-radius: 9px;
   /* background-color: #f0f2f5; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
   box-shadow:
     0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -65,7 +68,7 @@
 
 .productItem .productItemInfo p {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .productItem .productItemBtn {
@@ -74,6 +77,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-top: auto;
 }
 
 .productItem .productItemBtn a {

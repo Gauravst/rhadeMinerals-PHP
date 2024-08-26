@@ -4,7 +4,7 @@
       Welcome to Rhade KC Minerals ("we," "our," "us"). We are committed to
       protecting your privacy. This Privacy Policy explains how we collect, use,
       disclose, and safeguard your information when you visit our website
-      [Insert Website URL] (the "Site"). Please read this privacy policy
+      <a href="https://rhademinerals.com">rhademinerals.com</a> (the "Site"). Please read this privacy policy
       carefully. If you do not agree with the terms of this privacy policy,
       please do not access the site.
     </p>
@@ -126,7 +126,8 @@
       <strong>Rhade KC Minerals</strong><br />
       Bageshwar, Uttarakhand<br />
       Email:
-      <a href="mailto:contact@rhademinerals.com">contact@rhademinerals.com</a>
+      <a href="mailto:rhademinerals@gmail.com">rhademinerals@gmail.com</a><br />
+      Phone : +91 9988262608
     </p>
   </div>
 </section>

@@ -4,7 +4,7 @@
     <p>
       Welcome to the website of Rhade KC Minerals ("we," "our," "us"). These
       Terms and Conditions ("Terms") govern your use of our website located at
-      [Insert Website URL] (the "Site"). By accessing or using the Site, you
+      <a href="https://rhademinerals.com">rhademinerals.com</a> (the "Site"). By accessing or usin      g the Site, you
       agree to comply with and be bound by these Terms. If you do not agree with
       these Terms, please do not use the Site.
     </p>
@@ -89,7 +89,8 @@
       <strong>Rhade KC Minerals</strong><br />
       Bageshwar, Uttarakhand<br />
       Email:
-      <a href="mailto:contact@rhademinerals.com">contact@rhademinerals.com</a>
+      <a href="mailto:rhademinerals@gmail.com">rhademinerals@gmail.com</a><br />
+      Phone : +91 9988262608
     </p>
   </div>
 </section>

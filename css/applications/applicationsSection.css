@@ -57,6 +57,7 @@
 .applicationsListItem img {
   width: 100%;
   border-radius: 9px 9px 0px 0px;
+  height: 250px;
 }
 
 @media (max-width: 1020px) {
