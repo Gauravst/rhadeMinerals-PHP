@@ -2,7 +2,11 @@
   <div class="applicationsInfo">
     <h2>Industries We Cater To</h2>
     <p>
-      At Rhade KC Minerals, we specialize in processing high-quality Talc Powder and Soapstone Powder to meet the needs of leading companies across various industries. We recognize the critical role that premium raw materials play in ensuring the quality of final products. That's why we are committed to supplying the best materials to our clients in the following sectors:
+      At Rhade KC Minerals, we specialize in processing high-quality Talc Powder
+      and Soapstone Powder to meet the needs of leading companies across various
+      industries. We recognize the critical role that premium raw materials play
+      in ensuring the quality of final products. That's why we are committed to
+      supplying the best materials to our clients in the following sectors:
     </p>
   </div>
   <div class="applicationsList">
@@ -11,7 +15,11 @@
       <div class="itemInfo">
         <h3>Ceramics Industry</h3>
         <p>
-          Our Talc Powder is widely used in the ceramics industry for producing tiles, sanitary ware, and other ceramic products. It provides excellent whiteness, chemical inertness, and thermal stability, ensuring superior quality in the final ceramic products.
+          Talc Powder is being broadly used in the ceramics industry to
+          manufacture of Distinguish tiles, sanitary ware and particulate
+          ingredients utilized for production. The high whiteness, chemical
+          inertness and thermal stability it affords guarantees top quality in
+          the ceramicware products.
         </p>
       </div>
     </div>
@@ -21,7 +29,11 @@
       <div class="itemInfo">
         <h3>Foundry Industry</h3>
         <p>
-          Our Soapstone Powder is extensively used in the foundry industry as a flux in smelting operations. Its high purity and fine particle size help improve the efficiency of casting processes, ensuring smooth surface finishes and high-quality metal products.
+          Soapstone Powder is used in the foundry industry as a flux to increase
+          the viscosity of high-density metals, helping solids hold together
+          during pouring and cooling stages. Its high purity and fine particle
+          size enhance casting capabilities, resulting in tack-free surfaces
+          with desirable finishing quality.
         </p>
       </div>
     </div>
@@ -31,7 +43,10 @@
       <div class="itemInfo">
         <h3>Cosmetics Industry</h3>
         <p>
-          Our Talc Powder is a key ingredient in the cosmetics industry, where it is used in products like powders, foundations, and creams. Its smooth texture, absorbency, and softness make it ideal for enhancing the feel and performance of cosmetic products.
+          Talc Powder is one of the important ingredients used in cosmetic
+          industries equipment such as for face powder, base and cream. Gentle
+          touch, high absorbency and softness of the fabric makes it excellent
+          to be used for feel improvement in cosmetic products.
         </p>
       </div>
     </div>
@@ -41,7 +56,9 @@
       <div class="itemInfo">
         <h3>Pharmaceutical Industry</h3>
         <p>
-          Our Talc Powder is used in the pharmaceutical industry as an excipient and a glidant. It helps improve the flow properties of tablets and capsules, ensuring consistent quality and efficacy of medicinal products.
+          Talc Powder is an important additive for pharmaceutical preparations
+          and capsules as a glidant. They enhance the flow properties of tablets
+          and capsules resulting in uniform quality of pharmaceutical drugs.
         </p>
       </div>
     </div>
@@ -51,7 +68,10 @@
       <div class="itemInfo">
         <h3>Paints and Coatings Industry</h3>
         <p>
-          Talc and Soapstone Powder are essential in the paints and coatings industry. They improve paint durability, prevent settling, and enhance coverage, providing a smooth, durable finish that meets the highest industry standards.
+          Paints and Coatings Talc / Soapstone Powder In terms of durability,
+          they enhance paint life and prevent settling as well boosting coverage
+          to produce an level finish that is worthy of the most exacting
+          professional decorators.
         </p>
       </div>
     </div>
@@ -61,7 +81,10 @@
       <div class="itemInfo">
         <h3>Plastics Industry</h3>
         <p>
-          Our Talc Powder is used in the plastics industry to improve the rigidity and dimensional stability of plastic products. It enhances the mechanical properties of plastics, making them more durable and resistant to wear and tear.
+          In the plastics industry our Talc Powder is used in an extensive of
+          products-including, general purpose polypropylene compounds, for
+          automotive and household appliance parts such as battery cases,in
+          which are high stiffness or heat resistance required.
         </p>
       </div>
     </div>

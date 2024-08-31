@@ -9,6 +9,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <title>Rhade KC Minerals - <?= $pageTitle ?></title>
+    <meta name="description" content="Rhade KC Minerals specializes in supplying premium quality Talcum Powder and Soapstone Powder. Perfect for various industrial applications, our products are sourced from the finest materials and delivered to your location.">
+
+    <meta name="keywords" content="Talcum Powder, Soapstone Powder, Rhade KC Minerals, Talc Supplier, Soapstone Supplier, Industrial Talc, Industrial Soapstone, Quality Minerals, Uttarakhand, India">
+
+    <meta property="og:title" content="Rhade KC Minerals | Premium Talcum Powder & Soapstone Powder Supplier">
+    <meta property="og:description" content="High-quality Talcum Powder and Soapstone Powder for industrial use.">
+    <meta property="og:url" content="https://rhademinerals.com">
+    <meta property="og:type" content="website">
     <link href="<?= $cssFile ?>" rel="stylesheet" />
   </head>
   <body>

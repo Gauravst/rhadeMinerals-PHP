@@ -1,7 +1,7 @@
 <section id="about">
   <div class="aboutImage">
     <img
-      src="./assets/about/furnace.webp"
+      src="./assets/about/about.webp"
       alt=""
     />
   </div>
@@ -9,13 +9,13 @@
     <div class="aboutInfoTitle">We introduce ourselves as -</div>
     <h2>Rhade KC Minerals</h2>
     <p>
-      For nearly Half decades, Rhade KC Minerals has been a leading producer of
-      high-quality talc powder and soapstone, proudly based in Bageshwar,
-      Uttarakhand. We specialize in exporting and supplying a diverse range of
-      premium minerals. Our unwavering commitment to excellence and innovation
-      ensures that we consistently deliver products that meet the highest
-      industry standards. Trust Rhade Minerals for reliable and superior mineral
-      solutions.
+      Rhade KC Minerals is a leading producer of high-quality talc powder and
+      soapstone in Bageshwar, Uttarakhand for more than Half decades. Our
+      company is engaged in export and supply an immaculate range of natural
+      Minerals. This unwavering commitment to quality and innovation keeps our
+      products in a category alone, both in terms of practicality and technical
+      demand. Make sure to count on Rhade Minerals for trustable and
+      highly-efficient revolutionary minerals solutions
     </p>
   </div>
 </section>

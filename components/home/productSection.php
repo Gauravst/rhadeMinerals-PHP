@@ -8,9 +8,10 @@
       <div class="productItemInfo">
         <h2>Talcum Powder</h2>
         <p>
-          We are a leading manufacturer and supplier of high-quality Talcum Powder
-          in India. Our meticulous process from mining to refinement ensures
-          superior purity and consistency for diverse industrial applications.
+          We are a renowned manufacturer and supplier of premium quality talcum
+          powder. From Mining to Refinement, our accurate detailing process
+          provides purity and uniformity with different industrial applications.
+          Here is the hell lot of reactions:- Talcum Powder: Mg3Si4O10(OH)2.
         </p>
       </div>
       <div class="productItemBtn">
@@ -25,9 +26,10 @@
       <div class="productItemInfo">
         <h2>Soapstone</h2>
         <p>
-          As one of the trusted suppliers of premium Soapstone, we ensure
-          top-grade quality through careful extraction and processing, making it
-          ideal for use in architectural and sculptural projects.
+          For over a Half decade, our commitment to the quality and design of
+          each division remain unparalleled: This dedication as suppliers of
+          high-quality Soapstone is evident in every chunk we procure through
+          extracted processing for your architectural, sculptural projects.
         </p>
       </div>
       <div class="productItemBtn">
@@ -42,9 +44,10 @@
       <div class="productItemInfo">
         <h2>Talcum Powder</h2>
         <p>
-          We are a leading manufacturer and supplier of high-quality Talcum Powder
-          in India. Our meticulous process from mining to refinement ensures
-          superior purity and consistency for diverse industrial applications.
+          We are a renowned manufacturer and supplier of premium quality talcum
+          powder. From Mining to Refinement, our accurate detailing process
+          provides purity and uniformity with different industrial applications.
+          Here is the hell lot of reactions:- Talcum Powder: Mg3Si4O10(OH)2.
         </p>
       </div>
       <div class="productItemBtn">

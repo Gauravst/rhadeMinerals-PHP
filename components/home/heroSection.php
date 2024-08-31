@@ -18,8 +18,7 @@
       <h1>Rhade KC Minerals</h1>
       <h2>Your Mineral Source for Construction Excellence</h2>
       <p>
-        Rhade Minerals provides premium Talcum Powder (Talc Powder) and  Shop Stone, crafted to meet the high demands of construction. Choose us
-        for reliable, top-quality mineral solutions.
+        Rhade Minerals offers the best Talcum Powder (Talc Powder) and Workshop Stone, developed to meet demanding building needs. Trust us for the best mineral solutions.
       </p>
       <button class="heroBtn"><a href="./contact">Contact Us</a></button>
     </div>

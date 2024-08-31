@@ -1,7 +1,7 @@
 <?php
 
 $pageTitle = 'Soapstone';
-$cssFile = './css/about/index.css';
+$cssFile = './css/talc/index.css';
 $jsFile = './js/script.js';
 
 include './components/utils/header.php';
