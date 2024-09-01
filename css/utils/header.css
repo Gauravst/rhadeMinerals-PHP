@@ -133,6 +133,14 @@ header .logo a:hover span:nth-child(1) {
   cursor: pointer;
 }
 
+.headerRight .whatsappBtn:hover {
+  background-color: #06752f;
+}
+
+.headerRight .whatsappBtn:hover ~ .whatsappBtn svg {
+  display: none;
+}
+
 .headerRight .whatsappBtn > a {
   display: flex;
   justify-content: center;
@@ -215,6 +223,7 @@ header .logo a:hover span:nth-child(1) {
 
 .dropdownProduct a img {
   width: 60px;
+  height: 40px;
   border-radius: 5px;
 }
 

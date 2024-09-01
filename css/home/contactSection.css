@@ -61,6 +61,19 @@
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  border: 2px solid transparent;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease,
+    border 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.contectFormSubmitBtn:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contactDetails .contactBox {

@@ -6,5 +6,6 @@ $jsFile = './js/script.js';
 
 include './components/utils/header.php';
 include './components/utils/pageTitle.php';
+include './backend/_contactFrom.php';
 include './components/home/contactSection.php';
 include './components/utils/footer.php';

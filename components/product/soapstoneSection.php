@@ -1,7 +1,7 @@
 <section id="about">
   <div class="box1">
     <div class="aboutImage">
-      <img src="./assets/about/furnace.webp" alt="" />
+      <img src="./assets/products/p4.webp" alt="" />
     </div>
     <div class="aboutInfo">
       <h2>Soapstone</h2>

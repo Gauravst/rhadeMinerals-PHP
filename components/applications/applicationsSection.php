@@ -2,11 +2,7 @@
   <div class="applicationsInfo">
     <h2>Industries We Cater To</h2>
     <p>
-      At Rhade KC Minerals, we specialize in processing high-quality Talc Powder
-      and Soapstone Powder to meet the needs of leading companies across various
-      industries. We recognize the critical role that premium raw materials play
-      in ensuring the quality of final products. That's why we are committed to
-      supplying the best materials to our clients in the following sectors:
+      Rhade KC Minerals offers you various grades with high-quality Talc Powder and Soapstone Powder suitable for use by the plastics industry. We know the importance of using high-quality raw materials to keep final products good. And this is the reason we are dedicated to provide supreme quality elements of:
     </p>
   </div>
   <div class="applicationsList">

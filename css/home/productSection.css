@@ -22,11 +22,10 @@
 
 .productItem {
   position: relative;
+  overflow: hidden;
   border-radius: 9px;
-  /* background-color: #f0f2f5; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   box-shadow:
     0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -46,12 +45,48 @@
 
 .productItem .productItemImg img {
   width: 100%;
+  height: 100%;
   border-radius: 9px 9px 0px 0px;
-  transition: opacity 0.3s ease-in-out;
+  display: block;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+  width: 100%;
 }
 
-.productItem:hover .productItemImg img {
-  content: url("https://radheyshyamminerals.com/img/silica-sand.jpg");
+.productItemImg {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.productItemImg img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+.defaultImg {
+  z-index: 1;
+  left: 0;
+  transform: translateX(0);
+}
+
+.hoverImg {
+  z-index: 2;
+  left: 100%;
+  transform: translateX(0);
+}
+
+.productItem:hover .defaultImg {
+  transform: translateX(-100%);
+}
+
+.productItem:hover .hoverImg {
+  transform: translateX(-100%);
 }
 
 .productItem .productItemInfo {
@@ -88,6 +123,19 @@
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
+  border: 2px solid transparent;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease,
+    border 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.productItem .productItemBtn a:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 925px) {

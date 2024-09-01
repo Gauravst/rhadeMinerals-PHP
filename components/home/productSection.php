@@ -3,7 +3,8 @@
   <div class="productList">
     <div class="productItem">
       <div class="productItemImg">
-        <img src="https://radheyshyamminerals.com/img/chaina-clay.jpg" />
+        <img class="defaultImg" src="./assets/products/p1.webp" />
+        <img class="hoverImg" src="./assets/products/p5.webp" />
       </div>
       <div class="productItemInfo">
         <h2>Talcum Powder</h2>
@@ -21,7 +22,8 @@
 
     <div class="productItem">
       <div class="productItemImg">
-        <img src="https://radheyshyamminerals.com/img/chaina-clay.jpg" />
+        <img class="defaultImg" src="./assets/products/p2.webp" />
+        <img class="hoverImg" src="./assets/products/p4.webp" />
       </div>
       <div class="productItemInfo">
         <h2>Soapstone</h2>
@@ -39,7 +41,8 @@
 
     <div class="productItem">
       <div class="productItemImg">
-        <img src="https://radheyshyamminerals.com/img/chaina-clay.jpg" />
+        <img class="defaultImg" src="./assets/products/p5.webp" />
+        <img class="hoverImg" src="./assets/products/p1.webp" />
       </div>
       <div class="productItemInfo">
         <h2>Talcum Powder</h2>

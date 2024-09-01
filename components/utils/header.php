@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -48,13 +49,13 @@
                   <div class="dropdownProduct">
                     <a href="./talc">
                       <img
-                        src="https://radheyshyamminerals.com/img/silica-sand.jpg"
+                        src="./assets/products/p1.webp"
                       />
                       <p>Talcum Powder</p>
                     </a>
                     <a href="./soapstone">
                       <img
-                        src="https://radheyshyamminerals.com/img/silica-sand.jpg"
+                        src="./assets/products/p2.webp"
                       />
                       <p>Soapstone</p>
                     </a>
@@ -68,7 +69,7 @@
           </nav>
           <div class="whatsappBtn">
             <a href="https://wa.me/919988262608?text=Hi" target="_blank">
-            <svg width="20" viewBox="0 0 24 24">
+            <svg id="whatsappIconSVG" width="20" viewBox="0 0 24 24">
               <defs></defs>
               <path
                 fill="#eceff1"
