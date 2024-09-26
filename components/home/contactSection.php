@@ -32,7 +32,7 @@
         <i class="fas fa-map-marker-alt"></i>
         <div>
           <h4>Address</h4>
-          <p>Bari Khalsa Near Mangal Restaurant, Bageshwar, Uttarakhand India</p>
+          <p>Rampur Road, Near ganna center, Haldwani, Uttarakhand</p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@
 
       <div class="addressMap">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110714.89647203816!2d79.62468934852119!3d29.868872977616117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a735c5e8a11ce9%3A0x4a3a14a25920f9fc!2sBagnath%20Temple%2C%20Bageshwar!5e0!3m2!1sen!2sin!4v1723640469236!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16864.812145295527!2d79.4972601978081!3d29.18960636144967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09ad95a789d4b%3A0x8be33fbd0a91b51a!2sRampur%20Rd%2C%20Uttarakhand%20263139!5e0!3m2!1sen!2sin!4v1727344424091!5m2!1sen!2sin"
           width="100%"
           height="350"
           style="border: 0; border-radius: 9px"

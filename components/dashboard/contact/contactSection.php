@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM contactFrom";
+$sql = "SELECT * FROM contactFrom ORDER BY created_at DESC";
 $result = $conn->query($sql);
 $contacts = [];
 if ($result->num_rows > 0) {
@@ -79,8 +79,8 @@ if ($result->num_rows > 0) {
         </td>
         <td onClick="itemOnClick('<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['email'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['phone'], ENT_QUOTES, 'UTF-8'); ?>', '<?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?>')">
           <?= strlen($item['message']) > 30 ?
-                        htmlspecialchars(substr($item['message'], 0, 30)) . '...' :
-                        htmlspecialchars($item['message']); ?>
+                                  htmlspecialchars(substr($item['message'], 0, 30)) . '...' :
+                                  htmlspecialchars($item['message']); ?>
         </td>
         <td>
           <i

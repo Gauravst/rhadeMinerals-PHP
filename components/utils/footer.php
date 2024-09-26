@@ -38,7 +38,7 @@
               <div class="addressBoxItem">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>
-                  Bari Khalsa Near Mangal Restaurant, Bageshwar, Uttarakhand India
+                  Rampur Road, Near ganna center, Haldwani, Uttarakhand
                 </p>
               </div>
 

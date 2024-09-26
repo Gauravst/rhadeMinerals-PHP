@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT id, name, email, role, username FROM user WHERE role != 'hidden'";
+$sql = "SELECT id, name, email, role, username FROM user WHERE role != 'hidden' ORDER BY created_at DESC";
 $result = $conn->query($sql);
 $users = [];
 if ($result->num_rows > 0) {
