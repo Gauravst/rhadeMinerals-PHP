@@ -6,15 +6,16 @@
     <div class="aboutInfo">
       <h2>Soapstone</h2>
       <p>
-        We feel proud to introduce ourselves as the well-known Soapstone Provider, situated in cite - Bageshwar, Uttarakhand. But what
-        sparks your interest is… SOAPSTONE!!, a type of rock.Soapstone (also
-        known as steatite or soaprock) is a talc-schist, which is plentiful in
-        the world and with its formula <strong>Mg3Si4O10(OH)2</strong>. It is created by the
-        metamorphism of magnesium rich rocks and known for its superior softness
-        & heat resistance. Its unique properties make Soapstone an amazing
-        resource in many industries. Among the variety of Soapstone that we deal
-        in, you are sure to find yourself one demanding type that meets and
-        surpasses your requirements.
+        We feel proud to introduce ourselves as the well-known Soapstone
+        Provider, situated in cite - Bageshwar, Uttarakhand. But what sparks
+        your interest is… SOAPSTONE!!, a type of rock.Soapstone (also known as
+        steatite or soaprock) is a talc-schist, which is plentiful in the world
+        and with its formula <strong>Mg3Si4O10(OH)2</strong>. It is created by
+        the metamorphism of magnesium rich rocks and known for its superior
+        softness & heat resistance. Its unique properties make Soapstone an
+        amazing resource in many industries. Among the variety of Soapstone that
+        we deal in, you are sure to find yourself one demanding type that meets
+        and surpasses your requirements.
       </p>
 
       <div class="aboutInfoBtn"><a href="../contact">Contact Us</a></div>
@@ -22,16 +23,25 @@
   </div>
   <div class="box2">
     <h3>Specialty of Our Soapstone</h3>
-    <p>
-      Soapstone has a higher level of softness which makes it the most favored
-      option to be carved or molded, making designs elegant in each piece. With
-      those inherent characteristics, paired with heat resistance; soapstone
-      became a very functional applications on different type of industrial and
-      art work. Our Soapstone is 99.98% pure and processed with due diligence to
-      meet the needs of our vast clientele in varied sectors The Soapstone we
-      are offering is of Superior Quality and can be used for construction,
-      decoration art etc.
-    </p>
+    <ul>
+      <li>
+        Soapstone has a higher level of softness, making it the most favored
+        option for carving or molding.
+      </li>
+      <li>This softness allows for elegant designs in each piece.</li>
+      <li>
+        Paired with heat resistance, soapstone is highly functional in various
+        industrial and art applications.
+      </li>
+      <li>
+        Our soapstone is 99.98% pure and processed with due diligence to meet
+        the needs of our vast clientele in varied sectors.
+      </li>
+      <li>
+        The soapstone we offer is of superior quality and can be used for
+        construction, decoration, art, and more.
+      </li>
+    </ul>
 
     <h3>Diverse Uses of Soapstone</h3>
     <p>

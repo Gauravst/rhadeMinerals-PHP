@@ -26,17 +26,31 @@
   </div>
   <div class="box2">
     <h3>Specialty of Our Talc Powder</h3>
-    <p>
-      Talc has a softness, and playing around with it you cancut or
-      scratchtalcwith your fingernail. The variety of talc used to make baby
-      powder has been purged, buckled and expanded into pure white tablets
-      called lava This greatly improves its properties, which means that it is
-      very useful for many industrial uses. The people love Fine powdered talcs
-      because we supply it with the Low impurities We are producing a Dry powder
-      having competency in above sectors. Talc has been one of the most valuable
-      minerals for Rajasthan, being used in Applications such as cosmetics,
-      paper & rubber industries.
-    </p>
+    <ul>
+      <li>
+        Talc has a softness, and you can cut or scratch talc with your
+        fingernail.
+      </li>
+      <li>
+        The variety of talc used to make baby powder has been purged, buckled,
+        and expanded into pure white tablets called lava.
+      </li>
+      <li>
+        This process greatly improves its properties, making it very useful for
+        many industrial uses.
+      </li>
+      <li>
+        People love fine powdered talc because we supply it with low impurities.
+      </li>
+      <li>
+        We are producing a dry powder that is competent in the mentioned
+        sectors.
+      </li>
+      <li>
+        Talc has been one of the most valuable minerals for Bageshwar, used in
+        applications such as cosmetics, paper, and rubber industries.
+      </li>
+    </ul>
 
     <h3>Diverse Uses of Talc Powder</h3>
     <p>

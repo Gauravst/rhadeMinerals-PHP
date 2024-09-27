@@ -104,6 +104,7 @@
 .productItem .productItemInfo p {
   margin-top: 10px;
   font-size: 15px;
+  /* text-align: justify; */
 }
 
 .productItem .productItemBtn {

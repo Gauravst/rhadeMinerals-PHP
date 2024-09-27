@@ -27,6 +27,7 @@
 .aboutInfo p {
   opacity: 0.8;
   font-size: 16px;
+  text-align: justify;
 }
 
 .aboutInfoBtn {

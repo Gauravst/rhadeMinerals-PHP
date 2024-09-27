@@ -34,6 +34,10 @@
   width: 60%;
 }
 
+.infrastructureBoxInfo p {
+  text-align: justify;
+}
+
 @media (max-width: 1060px) {
   .infrastructureBox {
     display: flex;
