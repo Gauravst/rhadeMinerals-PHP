@@ -1,6 +1,6 @@
 <section id="about">
   <div class="aboutImage">
-    <img src="./assets/about/about.webp" alt="" />
+    <img src="./assets/about/about.webp" alt="about image" />
   </div>
   <div class="aboutInfo">
     <div class="aboutInfoTitle">We introduce ourselves as -</div>
