@@ -1,7 +1,7 @@
 <section id="infrastructure">
   <div class="infrastructureBox">
     <div class="infrastructureBoxImage">
-      <img src="./assets/banner3.webp" alt="" />
+      <img src="./assets/banner3.webp" alt="our infrastructure image 01" />
     </div>
     <div class="infrastructureBoxInfo">
       <p>
@@ -21,7 +21,7 @@
 
   <div class="infrastructureBox">
     <div class="infrastructureBoxImage">
-      <img src="./assets/about/about.webp" alt="" />
+      <img src="./assets/about/about.webp" alt="our infrastructure image 02" />
     </div>
     <div class="infrastructureBoxInfo">
       <p>

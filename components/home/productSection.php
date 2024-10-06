@@ -3,8 +3,8 @@
   <div class="productList">
     <div class="productItem">
       <div class="productItemImg">
-        <img class="defaultImg" src="./assets/products/p1.webp" />
-        <img class="hoverImg" src="./assets/products/p5.webp" />
+        <img class="defaultImg" src="./assets/products/p1.webp" alt="product image 1"/>
+        <img class="hoverImg" src="./assets/products/p5.webp" alt="product image 5"/>
       </div>
       <div class="productItemInfo">
         <h2>Talcum Powder</h2>

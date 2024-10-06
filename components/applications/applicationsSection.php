@@ -7,7 +7,7 @@
   </div>
   <div class="applicationsList">
     <div class="applicationsListItem">
-      <img src="./assets/applications/ceramic.webp" />
+      <img src="./assets/applications/ceramic.webp" alt="ceramic industry image"/>
       <div class="itemInfo">
         <h3>Ceramics Industry</h3>
         <p>
@@ -21,7 +21,7 @@
     </div>
 
     <div class="applicationsListItem">
-      <img src="./assets/applications/foundry.webp" />
+      <img src="./assets/applications/foundry.webp" alt="foundry industry image" />
       <div class="itemInfo">
         <h3>Foundry Industry</h3>
         <p>
@@ -35,7 +35,7 @@
     </div>
 
     <div class="applicationsListItem">
-      <img src="./assets/applications/cosmetics.webp" />
+      <img src="./assets/applications/cosmetics.webp" alt="cosmetics industry image"/>
       <div class="itemInfo">
         <h3>Cosmetics Industry</h3>
         <p>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="applicationsListItem">
-      <img src="./assets/applications/pharmaceutical.webp" />
+      <img src="./assets/applications/pharmaceutical.webp" alt="pharmaceutical industry image"/>
       <div class="itemInfo">
         <h3>Pharmaceutical Industry</h3>
         <p>
@@ -60,7 +60,7 @@
     </div>
 
     <div class="applicationsListItem">
-      <img src="./assets/applications/paints.webp" />
+      <img src="./assets/applications/paints.webp" alt="paints and Coatings industry image"/>
       <div class="itemInfo">
         <h3>Paints and Coatings Industry</h3>
         <p>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="applicationsListItem">
-      <img src="./assets/applications/plastics.webp" />
+      <img src="./assets/applications/plastics.webp" alt="plastics industry image"/>
       <div class="itemInfo">
         <h3>Plastics Industry</h3>
         <p>
